@@ -1,0 +1,23 @@
+{
+  "name": "solvexchallenge",
+  "version": "1.0.0",
+  "description": "Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently -n \"server,client\" -c 'blue,green' \"cd server/ApiGraph && dotnet run\" \"cd client && npm run serve \"",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juand0014/ListUsersWithMicrosoftGraphUsingAzure.git"
+  },
+  "author": "Juan Matos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juand0014/ListUsersWithMicrosoftGraphUsingAzure/issues"
+  },
+  "homepage": "https://github.com/Juand0014/ListUsersWithMicrosoftGraphUsingAzure#readme",
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
